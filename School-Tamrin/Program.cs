@@ -16,7 +16,8 @@ namespace School_Tamrin
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            
+            Application.Run(new FrmMain());
+
         }
     }
 }
