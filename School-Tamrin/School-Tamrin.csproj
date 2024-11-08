@@ -70,5 +70,19 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\School.BLL\School.BLL.csproj">
+      <Project>{9921977b-fde4-4075-ac3c-29c1449cad2c}</Project>
+      <Name>School.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\School.DataAccess\School.DataAccess.csproj">
+      <Project>{1c3dbdc8-2642-4833-8007-07efeddc15af}</Project>
+      <Name>School.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\School.Model\School.Model.csproj">
+      <Project>{ccb96b25-0914-443e-8168-555edb3aac84}</Project>
+      <Name>School.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
